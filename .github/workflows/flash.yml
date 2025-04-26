@@ -1,0 +1,18 @@
+name: Pull Request Workflow
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  flash:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flash Code Review
+        uses: DanielSuhett/flash@v0.0.14
+        with:
+          github-token: ${{ github.token }}
+          gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
+          gemini-model: gemini-2.5-flash
