@@ -85,7 +85,7 @@ export const HowItWorks: React.FC = () => {
                 <pre data-prefix="17"><code>          fetch-depth: 0</code></pre>
                 <pre data-prefix="18"><code></code></pre>
                 <pre data-prefix="19"><code>      - name: TypeScript Deep Code Review</code></pre>
-                <pre data-prefix="20"><code>        uses: DanielSuhett/flash@v0.0.13</code></pre>
+                <pre data-prefix="20"><code>        uses: DanielSuhett/flash@v0.0.14</code></pre>
                 <pre data-prefix="21"><code>        with:</code></pre>
                 <pre data-prefix="22"><code>          github-token: secrets.GITHUB_TOKEN</code></pre>
                 <pre data-prefix="23"><code>          gemini-api-key: secrets.GEMINI_API_KEY</code></pre>
@@ -113,7 +113,7 @@ jobs:
           fetch-depth: 0
 
       - name: TypeScript Deep Code Review
-        uses: DanielSuhett/flash@v0.0.13
+        uses: DanielSuhett/flash@v0.0.14
         with:
           github-token: {{ secrets.GITHUB_TOKEN }}
           gemini-api-key: {{ secrets.GEMINI_API_KEY }}
