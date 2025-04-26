@@ -22,8 +22,8 @@ function App() {
         <main className="flex-grow">
           <Hero />
           <Features />
-          <HowItWorks />
           <ModelShowcase />
+          <HowItWorks />
           <Pricing />
           <Faq />
         </main>

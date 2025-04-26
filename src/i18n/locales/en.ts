@@ -13,6 +13,7 @@ const translation = {
     description: 'A powerful GitHub Action that performs flash code review on TypeScript Pull Requests using Google\'s Gemini AI. Get intelligent, context-aware code analysis and automated review capabilities.',
     ctaPrimary: 'Get Started',
     ctaSecondary: 'Learn More',
+    ctaTertiary: 'Example',
   },
   features: {
     title: 'Powerful Features',

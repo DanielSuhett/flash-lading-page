@@ -13,6 +13,7 @@ const translation = {
     description: 'Uma poderosa GitHub Action que realiza revisão de código em Pull Requests TypeScript usando o Gemini AI do Google. Obtenha análise de código inteligente e recursos automatizados de revisão.',
     ctaPrimary: 'Começar Agora',
     ctaSecondary: 'Saiba Mais',
+    ctaTertiary: 'Exemplo',
   },
   features: {
     title: 'Recursos Poderosos',
