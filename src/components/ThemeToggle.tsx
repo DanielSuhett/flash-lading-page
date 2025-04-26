@@ -18,7 +18,7 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({ compact = false }) => 
           type="checkbox" 
           checked={theme === 'light'}
           onChange={toggleTheme}
-          aria-label={theme === 'light' ? t('themeToggle.dark') : t('themeToggle.light')}
+          aria-label={theme === 'light' ? t('themeToggle.light') : t('themeToggle.light')}
         />
         <Sun className="swap-on w-5 h-5" />
         <Moon className="swap-off w-5 h-5" />
