@@ -7,7 +7,7 @@ import { PostHogProvider } from 'posthog-js/react';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <PostHogProvider
-      apiKey={import.meta.env.VITE_PUBLIC_POSTHOG_KEY}
+      apiKey={"phc_9NLeQnalymKz0Ps5uymUnJAVw4nzMg0wSihT93dKWb0"}
       options={{
         api_host: "https://us.i.posthog.com",
         debug: import.meta.env.MODE === "development",
